@@ -2,5 +2,5 @@
 window.addEventListener("contextmenu", 
   function(e){
      e.stopPropagation()
-}, true);
+}, false);
 </script>
