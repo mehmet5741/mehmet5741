@@ -1,5 +1,6 @@
 <script>
-document.addEventListener("contextmenu", function (e){
-    e.preventDefault();
+window.addEventListener("contextmenu", 
+  function(e){
+     e.stopPropagation()
 }, true);
 </script>
