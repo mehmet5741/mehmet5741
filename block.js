@@ -1,4 +1,5 @@
 <script>
-const div = document.getElementById("myDiv");
-div.addEventListener("contextmenu", (e) => {e.preventDefault()});
+document.addEventListener("contextmenu", function (e){
+    e.preventDefault();
+}, true);
 </script>
